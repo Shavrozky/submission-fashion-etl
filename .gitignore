@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and credentials
+.env
+google-sheets-api.json
+
+# Generated files
+products.csv
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

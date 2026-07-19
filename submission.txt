@@ -1,0 +1,15 @@
+# Menjalankan skrip ETL pipeline
+python main.py
+
+# Menjalankan unit test
+python -m pytest tests
+
+# Menjalankan test coverage
+coverage run -m pytest tests
+coverage report -m
+
+# Alternatif menggunakan pytest-cov
+python -m pytest tests --cov=utils --cov-report=term-missing
+
+# URL Google Sheets
+Belum dikonfigurasi pada Fase 1.
